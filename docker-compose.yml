@@ -1,0 +1,7 @@
+web:
+  image: kevvannguyen/arcaco-site
+  command: npm start
+  volumes:
+    - .:/usr/src/app
+  ports:
+    - "3000:3000"
